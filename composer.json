@@ -1,0 +1,27 @@
+{
+    "name": "ghadeerhamed/live-email-preview",
+    "description": "provides a live preview of email templates in a browser",
+    "autoload": {
+        "psr-4": {
+            "Ghadeerhamed\\LiveEmailPreview\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ghadeer Hamed",
+            "email": "eng.gh.a.h93@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": ">=10",
+        "illuminate/mail": ">=10"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ghadeerhamed\\LiveEmailPreview\\LiveEmailPreviewServiceProvider"
+            ]
+        }
+    }
+}
