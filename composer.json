@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ghadeerhamed\\LiveEmailPreview\\LiveEmailPreviewServiceProvider"
+                "Ghadeerhamed\\LiveEmailPreview\\ServiceProviders\\LiveEmailPreviewServiceProvider"
             ]
         }
     },
