@@ -1,6 +1,6 @@
 {
     "name": "ghadeerhamed/live-email-preview",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "type": "library",
     "description": "provides a live preview of email templates in a browser",
     "autoload": {
